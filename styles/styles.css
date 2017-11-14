@@ -1,0 +1,88 @@
+/* Aqui empieza el header*/
+header {
+  height: 90px;
+  width: 100%;
+  background-color: #0F0F0F;    
+}
+
+.logotipo{
+  padding: 10px 30px 10px;
+  height: 70px;
+  width: 70px;
+}
+
+a {
+  color:white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  height: 75px;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  padding: 30px;
+}
+
+.breadcrumb-item{
+ padding-top: 70px;
+ padding-right: 8px;
+}
+
+/* Aqui empieza el body*/
+
+.shadow {
+  box-shadow: 2px 3px 5px black;
+  border: 5px solid white;
+  border-radius: 5px;
+  width: 250px;
+}
+
+
+body {
+  background-color: black;
+  background-size: 10px;
+  background-image: url(https://lh3.googleusercontent.com/-QV7pVG1sgXc/Wgp3Ny4dVaI/AAAAAAAADvc/66KptHo8I3o_yIgapIGTByr788ncwfx1wCL0BGAYYCw/h3744/2017-11-13.jpg);
+  background-size: 100%;
+  margin: 0;
+  padding;0;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.boxprincipal{
+  text-align: center;
+  width: 100%;
+}
+
+/*elementos tipográficos*/
+
+h1 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 60px;
+  color: white;
+  font-kerning: none;
+}
+
+h2 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 18px;
+  color: #f2f2f2;
+}
+
+/* Aqui empieza el footer*/
+
+footer {
+  align-self: flex-end;
+  background-color: #0F0F0F;
+  font-family: 'Prompt', sans-serif;
+  color:white;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+}
+
+
+
