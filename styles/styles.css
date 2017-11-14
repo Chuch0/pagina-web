@@ -39,10 +39,9 @@ nav {
   width: 250px;
 }
 
-
 body {
   background-color: black;
-  background-size: 10px;
+  background-size: none;
   background-image: url(https://lh3.googleusercontent.com/-gxAB-MDrVlc/WgsoMvsgreI/AAAAAAAADvs/qx_xlghWvtw4PnDu_iKG7ke4dQo7Y1deQCL0BGAYYCw/h3744/2017-11-14.jpg);
   background-size: 100%;
   margin: 0;
@@ -53,25 +52,46 @@ body {
 }
 
 .boxprincipal{
+  background-color: black;    
+  box-shadow: 3px 3px 2px black;
+  display: inline-block;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 50px;
   text-align: center;
-  width: 100%;
+  width: 300px;
 }
 
 /*elementos tipográficos*/
 
 h1 {
   font-family: 'Prompt', sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   color: white;
   font-kerning: none;
 }
 
 h2 {
+  color: white;
   font-family: 'Reem Kufi', sans-serif;
   font-size: 18px;
-  color: #f2f2f2;
 }
 
+h3{
+  background-color: white;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  color:black;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 12;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+    
+  }
+  
 /* Aqui empieza el footer*/
 
 footer {
@@ -83,6 +103,8 @@ footer {
   text-align: center;
   width: 100%;
 }
+
+
 
 
 
