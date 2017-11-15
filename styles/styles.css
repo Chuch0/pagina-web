@@ -1,3 +1,7 @@
+.img{
+  max-width: 100%;
+}
+
 /* Aqui empieza el header*/
 header {
   height: 90px;
@@ -42,6 +46,7 @@ nav {
 body {
   background-color: black;
   background-size: none;
+  background-repeat: no-repeat;
   background-image: url(https://lh3.googleusercontent.com/-gxAB-MDrVlc/WgsoMvsgreI/AAAAAAAADvs/qx_xlghWvtw4PnDu_iKG7ke4dQo7Y1deQCL0BGAYYCw/h3744/2017-11-14.jpg);
   background-size: 100%;
   margin: 0;
